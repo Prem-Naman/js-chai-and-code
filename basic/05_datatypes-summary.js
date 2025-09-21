@@ -36,3 +36,15 @@ const myFunction=function(){
 
 console.log(typeof bignumber);
 
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(Primitive) , heap (Non-Primitive)
+
+
+let myYoutubename="Prem"
+let anothername =myYoutubename
+anothername= "chai aur code"
+console.log(myYoutubename)
+console.log(anothername)
+
